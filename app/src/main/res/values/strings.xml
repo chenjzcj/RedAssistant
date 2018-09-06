@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">红包助手</string>
+    <string name="open_assistant_service">打开辅助服务</string>
+    <string name="find_redassistant_and_open">找到红包助手，然后%1$s服务即可</string>
+    <string name="accessibility_description">启动抢红包服务,当你手机在充电或者睡觉的时候也能帮您轻松快速的抢红包哦</string>
+    <string name="redassistant_service_open_success">红包助手服务启动成功</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="tip_no_internet">当前没有可用的网络链接</string>
+    <string name="error_code_10_">连接失败，请检查手机的网络(-10)</string>
+    <string name="chat_had_copy">已复制下载链接,打开微信粘贴发送给好友吧</string>
+    <string name="this_is_item">This is item</string>
+    <string name="version_update_hint">%1$s版本升级</string>
+    <string name="verson_find_new_version">发现新版本,是否更新 ?</string>
+    <string name="update_immediately">立即升级</string>
+    <string name="version_ignore">忽略</string>
+    <string name="downloading">下载中&#8230;</string>
+    <string name="start_download">开始下载</string>
+    <string name="down_app">扫一扫下载APP</string>
+    <string name="version_info">版本:V%1$s(%2$d)</string>
+    <string name="cur_is_least_version">当前为最新版本</string>
+    <string name="getting_last_version_info">正在拉取最新版本信息&#8230;</string>
+    <string name="server_is_lost">很抱歉,服务器罢工了,稍候再试吧&#8230;</string>
+    <string name="downloading_progress">下载中(%1$d%%)&#8230;</string>
+    <string name="download_finish">下载完成</string>
+    <string name="aboutsus">关于我们</string>
+    <string name="financial">投资理财</string>
+    <string name="problem">常见问题</string>
+    <string name="remind_tone">提示音设置</string>
+    <string name="permission_deny">权限被拒绝</string>
+</resources>

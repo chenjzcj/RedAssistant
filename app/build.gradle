@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        singing1 {
+            keyAlias 'red'
+            keyPassword '2017red'
+            storeFile file('key/redassistant.jks')
+            storePassword '2017red'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "xxx.com.redassistant"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 4
+        versionName "1.1.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.singing1
+        }
+    }
+    flavorDimensions "color"
+    productFlavors {
+        QINIU {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "qiniu"]
+        }
+        SUKE7 {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "SUKE7"]
+        }
+        FIR {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "fir"]
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:23.4.0'
+    implementation 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    implementation 'org.xutils:xutils:3.3.36'
+    implementation 'com.blankj:utilcode:1.6.4'
+    //友盟统计
+    implementation 'com.umeng.analytics:analytics:latest.integration'
+    //权限管理
+    implementation 'com.lovedise:permissiongen:0.1.1'
+}

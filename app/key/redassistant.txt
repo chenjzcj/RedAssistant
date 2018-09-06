@@ -1,0 +1,9 @@
+storePassword:		2017red
+
+keyAlias:		red
+
+keyPassword:	2017red
+
+validity:	100
+
+country code:	86
