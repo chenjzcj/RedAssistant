@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ASProjects-RedAssistant.iml" filepath="$PROJECT_DIR$/.idea/modules/ASProjects-RedAssistant.iml" group="RedAssistant" />
       <module fileurl="file://$PROJECT_DIR$/RedAssistant.iml" filepath="$PROJECT_DIR$/RedAssistant.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RedAssistant.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RedAssistant.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="RedAssistant/app" />
     </modules>
   </component>
 </project>
